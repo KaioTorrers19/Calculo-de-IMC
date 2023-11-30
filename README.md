@@ -17,7 +17,7 @@ Usando para  ensino de tecnologias WEB.
 <br>
 
 <p align="center">
-  <img alt="Theme-Switcher " src="assets/Capa.jpeg" width="100%">
+  <img alt="Calculo de IMC" src="assets/capa.jpeg" width="100%">
 </p>
 
 ## 🚀 Tecnologias

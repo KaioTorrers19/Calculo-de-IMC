@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="shortcut icon" href="assets/BalançaImc.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/output.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculador de IMC</title>
+</head>
+<body class="flex justify-center h-screen items-center bg-gradient-to-r from-red-500 to-orange-500 bg-cover bg-no-repeat">
+    <main class="flex justify-around bg-white w-2/4 h-auto rounded-md p-3 shadow-[0px_10px_1px_rgba(221,_221,_221,_1),_0_10px_20px_rgba(204,_204,_204,_1)]">
+        <div class="flex justify-center items-center w-2/4" id="image">
+            <img src="assets/BalançaImc.png" alt="balança" class="w-2/4" >
+        </div>
+        <div class=" w-2/4 mt-10" id="container-input">
+            <div class="flex justify-center">
+            <h1 class="font-bold text-center text-2xl">Calcule seu IMC</h1>
+        </div>
+            <div class="flex justify-center  w-full mt-12">
+                <div class="flex justify-center flex-col">
+            <label>Altura</label>
+            <input id="Altura" type="text" maxlength="4" placeholder="1.70" class="w-60 flex justify-center p-1 mt-2 bg-slate-200 rounded-md border-2  border-slate-600">
+            <br>
+
+            <label>Peso</label>
+            <input  id="Peso" type="text" maxlength="2"  placeholder="80" class="w-60 p-1 mt-2 bg-slate-200 rounded-md border-slate-600 border-2 ">
+            <button id="submit" type="submit" class="mt-6 bg-transparent border border-slate-500 text-lg font-bold rounded-xl  w-60">Enviar</button>
+        <div id="Result" class="pt-3 text-center ">
+            <!-- <p id="PesoResult">20.50 KG</p>
+            <p id="descriptionResult pt-3">você está no peso ideal</p> -->
+        </div>
+        </div>
+        </div>
+        </div>
+        
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>

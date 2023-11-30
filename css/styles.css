@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+@media  screen and (max-width: 972px) {
+    #image{
+        display: none;
+    }
+    main {
+        width: 300px !important; /* Ajuste para 350px conforme desejado */
+        margin: auto; /* Centraliza o main horizontalmente */
+    }
+    h1{
+        font-size: 18px !important;
+    }
+    input{
+        width: auto !important;
+    }
+  }
